@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background:url(../img/pizza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-blend-mode: darken;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 519px;
+    background: rgba(0, 0, 0, 0.33);
+    border-radius: 5px;
+    gap: 32px;
+}
+
+.login_card button{
+    width: 279px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF; 
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+.login_card h1{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.login_card input[type="text"]{
+    color: white;
+    padding-left:10px;
+    font-size: 18px;
+    
+}
+.input_bar{
+    height: 60px;
+    width: 279px;
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid #FFFFFF;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.input_bar::placeholder{
+    color: #D6D6D6;
+    transform:translateY(3px);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
